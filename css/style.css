@@ -252,15 +252,20 @@ p {
   margin-bottom: 0;
 }
 .portfolio-item {
+  margin: 0;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
 }
 .portfolio-text {
+  margin: 0;
   font-size: 16px;
   line-height: 1.87;
+  margin-top: 4px;
+  padding-bottom: 20px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -307,6 +312,10 @@ p {
 .footer {
   display: flex;
   flex-direction: column;
+  padding-bottom: 60px;
+}
+.footer > li:last-child {
+  margin-top: 9px;
 }
 .contacts {
   margin-top: 9px;
