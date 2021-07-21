@@ -112,6 +112,8 @@ p {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-bottom: 94px;
 }
 .section {
@@ -120,19 +122,14 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 94px;
 }
 .team-section {
   display: flex;
   justify-content: space-between;
 }
-.team {
-  padding-top: 94px;
-}
 .thesis-section {
   display: flex;
-}
-.thesis {
-  margin-bottom: 94px;
 }
 .thesis-item:not(:first-child) {
   margin-left: 30px;
@@ -229,8 +226,7 @@ p {
   margin-right: 8px;
 }
 .main-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
 }
 .button-section {
   display: flex;
