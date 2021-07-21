@@ -209,6 +209,8 @@ p {
   font-size: 16px;
   line-height: 1.9;
   border-radius: 6px;
+  padding: 9px 31px;
+  border: solid 1px #2196f3;
 }
 .portfolio-button {
   font-family: roboto, sans-serif;
