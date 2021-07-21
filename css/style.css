@@ -25,6 +25,8 @@ body {
   --web-logo-color: #2196f3;
   --studio-logo-color: #000000;
   --nav-color: #212121;
+
+  --border-color: #f5f4fa;
 }
 
 ul {
@@ -43,7 +45,10 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   align-items: center;
+  border-bottom: solid 1px var(--border-color);
 }
 .second {
   margin-left: 93px;
@@ -123,6 +128,9 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 94px;
+}
+.thesis > h2 {
+  visibility: hidden;
 }
 .team-section {
   display: flex;
@@ -220,13 +228,16 @@ p {
 
   border-radius: 6px;
   padding: 5px 21px;
-  border: solid 1px #f5f4fa;
+  border: solid 1px var(--border-color);
 }
 .button-section > li:not(:last-child) {
   margin-right: 8px;
 }
 .main-section {
   padding-top: 94px;
+}
+.main-section > h1 {
+  visibility: hidden;
 }
 .button-section {
   display: flex;
