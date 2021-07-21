@@ -27,13 +27,6 @@ body {
   --nav-color: #212121;
 }
 
-.container-box {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 ul {
   list-style: none;
   margin: 0;
@@ -42,12 +35,25 @@ ul {
 p {
   margin: 0;
 }
+/* Header style */
+.header-section {
+  display: flex;
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+}
+.second {
+  margin-left: 93px;
+}
+.third {
+  margin-left: 331px;
+}
 /* Logo style */
 .logo {
   text-decoration: none;
-}
-.header-section {
-  margin: 0 auto 0 auto;
 }
 .web-logo {
   color: var(--web-logo-color);
@@ -106,13 +112,23 @@ p {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 94px;
 }
 .section {
-  width: 1200px;
+  width: 1230px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.team-section {
+  display: flex;
+}
+.thesis-section {
+  display: flex;
+}
+.work-section {
+  display: flex;
 }
 .hero-title {
   margin-top: 0;
@@ -140,6 +156,7 @@ p {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
+  margin-bottom: 10px;
 }
 .developer {
   color: var(--primary-text-color);
