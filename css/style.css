@@ -244,6 +244,8 @@ p {
 .portfolio-project {
   margin-right: 30px;
   margin-bottom: 30px;
+
+  border-bottom: solid 1px #eeeeee;
 }
 .portfolio-project:nth-child(3n) {
   margin-right: 0;
