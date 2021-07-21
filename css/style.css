@@ -38,7 +38,7 @@ p {
 /* Header style */
 .header-section {
   display: flex;
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -46,10 +46,10 @@ p {
   align-items: center;
 }
 .second {
-  margin-left: 93px;
+  margin-left: 91px;
 }
 .third {
-  margin-left: 331px;
+  margin-left: 330px;
 }
 /* Logo style */
 .logo {
@@ -115,7 +115,7 @@ p {
   margin-bottom: 94px;
 }
 .section {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -123,12 +123,23 @@ p {
 }
 .team-section {
   display: flex;
+  justify-content: space-between;
+}
+.team {
+  padding-top: 94px;
 }
 .thesis-section {
   display: flex;
 }
+.thesis {
+  margin-bottom: 94px;
+}
+.thesis-item:not(:first-child) {
+  margin-left: 30px;
+}
 .work-section {
   display: flex;
+  justify-content: space-between;
 }
 .hero-title {
   margin-top: 0;
@@ -148,7 +159,9 @@ p {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
+
 .secondary {
   margin: 0;
   color: var(--primary-text-color);
@@ -158,13 +171,31 @@ p {
   line-height: 1.2;
   margin-bottom: 10px;
 }
+.developer-photo {
+  margin-bottom: 30px;
+}
 .developer {
+  margin: 0;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
 }
 .section-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.2;
+}
+.developer-text {
+  margin: 0;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.2;
@@ -204,10 +235,20 @@ p {
   background-color: var(--accent-bgc-button);
 }
 /* Footer style */
-footer {
+.footer-section {
   background-color: var(--footer-bgc);
 }
-address {
+.container-footerbox {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.address {
+  margin-top: 20px;
+}
+.address-section {
   color: var(--footer-text-color);
   font-style: inherit;
   font-size: 14px;
@@ -220,10 +261,20 @@ address {
   line-height: 1.1;
   text-decoration: none;
 }
+.footer-logo {
+  padding-top: 60px;
+}
 .studio-footerlogo {
   color: var(--footer-text-color);
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.contacts {
+  margin-top: 9px;
 }
