@@ -37,8 +37,13 @@ ul {
 p {
   margin: 0;
 }
-h2 {
+.thesis-box h2 {
   margin: 0;
+  display: none;
+}
+.portfolio-box h1 {
+  margin: 0;
+  display: none;
 }
 /* Header style */
 .header-section {
@@ -132,9 +137,6 @@ h2 {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-.thesis-section h2 {
-  visibility: hidden;
 }
 .team-section {
   display: flex;
@@ -261,9 +263,7 @@ h2 {
 }
 .main-section {
   padding-top: 94px;
-}
-.main-section > h1 {
-  visibility: hidden;
+  padding-bottom: 94px;
 }
 .button-section {
   display: flex;
