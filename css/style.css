@@ -37,6 +37,9 @@ ul {
 p {
   margin: 0;
 }
+h2 {
+  margin: 0;
+}
 /* Header style */
 .header-section {
   display: flex;
@@ -119,7 +122,6 @@ p {
   padding-right: 15px;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 }
 .section {
   width: 1200px;
@@ -128,6 +130,9 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 94px;
+}
+.thesis {
+  padding-top: 94px;
 }
 .thesis > h2 {
   visibility: hidden;
@@ -192,7 +197,7 @@ p {
 }
 .section-text {
   color: var(--secondary-text-color);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
 }
 .developer-text {
