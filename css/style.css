@@ -305,6 +305,16 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-top: 20px;
+  padding-left: 24px;
+}
+.piece-item {
+  margin: 0;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-top: 20px;
 }
 .portfolio-text {
   margin: 0;
@@ -312,6 +322,7 @@ p {
   line-height: 1.87;
   margin-top: 4px;
   padding-bottom: 20px;
+  padding-left: 24px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
